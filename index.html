@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <title>Horoscope Generator</title>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1>Claire's AI Horoscope Generator</h1>
+    </header>
+
+<main>
+    <div class="form-container">
+<form id="horoscope-generator-form">
+<input type="text" placeholder="Enter your astrological sign" autofocus required autocomplete="off" class="instruction" id="user-instruction"/>
+<input type="submit" class="submit-button"/>
+</form>
+<div class="hint">i.e. Libra, Virgo, Leo</div>
+</div>
+<div class="horoscope hidden" id="horoscope">
+</div>
+</main>
+
+    <footer>This AI project was coded by <a href="https://github.com/ClaireBruce" target="_blank">Claire Bruce</a> and is open-sourced on <a href="https://github.com/ClaireBruce/poem-generator" target="_blank">GitHub</a> and is hosted on <a href="https://app.netlify.com/" target="_blank">Netlify.</a></footer>
+</div>
+<script src="src/script.js"></script>
+</body>
+</html>
